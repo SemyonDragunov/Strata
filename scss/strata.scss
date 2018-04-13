@@ -1,0 +1,42 @@
+// Lifu basic style file.
+// ======================
+
+// Add dependencies.
+
+@import "../bower_components/susy/sass/susy";
+@import "../bower_components/bourbon/app/assets/stylesheets/bourbon";
+
+// Variables.
+
+$susy: (
+  columns: 3,
+  gutters: 1/10,
+);
+
+$phone-only-breakpoint: (
+  max-width: 767px,
+);
+
+$tablet-only-breakpoint: (
+  min-width: 768px,
+  max-width: 1119px,
+);
+
+$big-screen-up-breakpoint: (
+  min-width: 1200px,
+);
+
+$font-size: 16px;
+$base-margin: 15px;
+
+$form-element-height: 40px;
+
+$grey-color-text: #787878;
+$grey-color-border: #efefef;
+$grey-color-bg: #efefef;
+
+@import "errors";
+@import "login";
+@import "maintenance";
+@import "elements";
+@import "comments";

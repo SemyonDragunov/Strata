@@ -1,0 +1,74 @@
+$color-main: #49bf9d;
+
+a {
+  color: $color-main;
+}
+
+a:hover,
+a:focus {
+  color: $color-main !important;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:hover {
+  border-color: $color-main;
+  color: $color-main !important;
+}
+
+input[type="submit"]:active,
+input[type="reset"]:active,
+input[type="button"]:active,
+.button:active {
+  border-color: $color-main;
+  color: $color-main !important;
+}
+
+ul.pager {
+  li {
+
+    &.pager-current {
+      color: $color-main;
+      border-color: $color-main;
+    }
+
+    a {
+      &:hover,
+      &:focus {
+        color: $color-main;
+        border-color: $color-main;
+      }
+    }
+  }
+}
+
+#comments {
+  .comment-new {
+    border-left-color: $color-main;
+  }
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  border-left-color: $color-main;
+}
+
+.switch {
+  input:checked+label {
+    background-color: $color-main;
+  }
+}
